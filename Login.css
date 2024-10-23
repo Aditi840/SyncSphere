@@ -1,0 +1,149 @@
+/* src/components/Login.css */
+
+/* Overall container styling */
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 30px;
+  background-color: #1c1f4a; /* Dark blue background */
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Adding a shadow effect */
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Arial', sans-serif;
+}
+
+/* Login heading */
+h2 {
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* Input fields styling */
+input {
+  width: 100%;
+  padding: 12px 15px;
+  margin: 10px 0;
+  border: 1px solid #3a3f72;
+  border-radius: 5px;
+  background-color: #2a2f55;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+/* On focus, input border changes color */
+input:focus {
+  border-color: #4a6cff;
+}
+
+/* Login button styling */
+.login-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4a6cff; /* Primary button color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #3b55cc;
+}
+
+/* Social login section styling */
+.social-login {
+  margin-top: 30px;
+}
+
+.social-login p {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #cfcfcf;
+}
+
+/* Social media buttons styling */
+.social-buttons {
+  display: flex;
+  flex-wrap: wrap; /* Wrap buttons if too many */
+  justify-content: space-around; /* Space buttons around */
+  gap: 10px; /* Add gap between buttons */
+}
+
+/* Social media button base styling */
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  flex-grow: 1;
+  margin: 5px;
+  color: #ffffff;
+  transition: transform 0.2s ease, opacity 0.3s ease;
+}
+
+/* WhatsApp button */
+.whatsapp-button {
+  background-color: #25D366;
+}
+
+.whatsapp-button:hover {
+  transform: scale(1.05);
+}
+
+/* Twitter button */
+.twitter-button {
+  background-color: #1DA1F2;
+}
+
+.twitter-button:hover {
+  transform: scale(1.05);
+}
+
+/* Facebook button */
+.facebook-button {
+  background-color: #3b5998;
+}
+
+.facebook-button:hover {
+  transform: scale(1.05);
+}
+
+/* Instagram button */
+.instagram-button {
+  background-color: #E1306C;
+}
+
+.instagram-button:hover {
+  transform: scale(1.05);
+}
+
+/* LinkedIn button */
+.linkedin-button {
+  background-color: #0077B5;
+}
+
+.linkedin-button:hover {
+  transform: scale(1.05);
+}
+
+/* Google login button custom styling */
+.google-login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+
+/* Hover effect for all social buttons */
+button:hover {
+  opacity: 0.9;
+}
